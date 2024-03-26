@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Gateway of India",
+      "location": { "lat": 18.9217, "lng": 72.8347 },
+      "capacity": "Full"
+    },
+    {
+      "name": "Chhatrapati Shivaji Maharaj Terminus",
+      "location": { "lat": 18.9401, "lng": 72.8356 },
+      "capacity": "Half Full"
+    },
+    {
+      "name": "Marine Drive",
+      "location": { "lat": 18.9440, "lng": 72.8236 },
+      "capacity": "Empty"
+    },
+    {
+      "name": "Juhu Beach",
+      "location": { "lat": 19.0970, "lng": 72.8271 },
+      "capacity": "Half Full"
+    },
+    {
+      "name": "Siddhivinayak Temple",
+      "location": { "lat": 19.0169, "lng": 72.8308 },
+      "capacity": "Full"
+    }
+  ]
+  

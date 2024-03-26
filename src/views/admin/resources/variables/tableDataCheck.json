@@ -1,0 +1,32 @@
+[
+  {
+    "name": ["John Smith", false],
+    "quantity": 258,
+    "date": "25 feb 2024",
+    "progress": 12.2
+  },
+  {
+    "name": ["Emily Johnson", true],
+    "quantity": 258,
+    "date": "25 feb 2024",
+    "progress": 15
+  },
+  {
+    "name": ["Michael Brown", true],
+    "quantity": 289,
+    "date": "25 feb 2024",
+    "progress": 10
+  },
+  {
+    "name": ["Jessica Davis", false],
+    "quantity": 310,
+    "date": "25 feb 2024",
+    "progress": 30
+  },
+  {
+    "name": ["Christopher Wilson", true],
+    "quantity": 200,
+    "date": "25 feb 2024",
+    "progress": 20.2
+  }
+]
