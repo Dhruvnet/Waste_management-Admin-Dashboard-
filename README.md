@@ -1,5 +1,5 @@
 
-# Waste_management-Admin-Dashboard-
+# Waste Management [Admin Dashboard]
 
 ![Screenshot 2024-03-25 124230](https://github.com/Dhruvnet/Waste_management-Admin-Dashboard-/assets/123584784/2d49f66a-f943-4da0-acf4-c37dd8a0cded)
 ![Screenshot 2024-03-25 124300](https://github.com/Dhruvnet/Waste_management-Admin-Dashboard-/assets/123584784/e3f960e2-8ffc-4011-82fd-f576a4b1b69b)
