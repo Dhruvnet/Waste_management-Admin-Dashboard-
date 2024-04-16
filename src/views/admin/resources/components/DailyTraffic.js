@@ -7,14 +7,12 @@ import BarChart from "components/charts/BarChart";
 // Custom components
 import Card from "components/card/Card.js";
 import {
-  resourcesbarChartDataDailyTraffic,
-  resourcessbarChartOptionsDailyTraffic,
+  barChartDataDailyTraffic,
+  barChartOptionsDailyTraffic,
 } from "variables/charts";
 
 // Assets
 import { RiArrowUpSFill } from "react-icons/ri";
-import { resourcesbarChartDataDailyTraffic } from "variables/charts";
-import { resourcessbarChartOptionsDailyTraffic } from "variables/charts";
 
 export default function DailyTraffic(props) {
   const { ...rest } = props;
@@ -60,8 +58,8 @@ export default function DailyTraffic(props) {
       </Flex>
       <Box h='240px' mt='auto'>
         <BarChart
-          chartData={resourcesbarChartDataDailyTraffic}
-          chartOptions={resourcessbarChartOptionsDailyTraffic}
+          chartData={barChartDataDailyTraffic}
+          chartOptions={barChartOptionsDailyTraffic}
         />
       </Box>
     </Card>

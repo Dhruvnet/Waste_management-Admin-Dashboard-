@@ -1,31 +1,43 @@
 [{
-  "name":["Horizon UI PRO",false],
+  "name":["Dhruv Sheth",false],
   "quantity": 2458, 
   "date": "12 Jan 2021",
   "progress": 17.5  
 },
 {
-  "name":["Horizon UI Free",true],
+  "name":["Aryan Surve",true],
   "quantity": 1485, 
   "date": "21 Feb 2021",
   "progress": 10.8  
 },
 {
-  "name":["Weekly Update",true],
+  "name":["Shivam Musterya",false],
   "quantity": 1024, 
   "date": "13 Mar 2021",
   "progress": 21.3  
 },
 {
-  "name":["Venus 3D Asset",true],
+  "name":["Vaibhav Vanage",true],
   "quantity": 858, 
   "date": "24 Jan 2021",
   "progress": 31.5  
 },
 {
-  "name":["Marketplace",false],
+  "name":["Aditi Gaikwad",true],
   "quantity": 258, 
   "date": "24 Oct 2022",
   "progress": 12.2  
+},
+{
+  "name":["John Smith",false],
+  "quantity": 652, 
+  "date": "26 Dec 2022",
+  "progress": 65.2  
+},
+{
+  "name":["James Band",true],
+  "quantity": 752, 
+  "date": "02 Jan 2022",
+  "progress": 52.2  
 }
 ]

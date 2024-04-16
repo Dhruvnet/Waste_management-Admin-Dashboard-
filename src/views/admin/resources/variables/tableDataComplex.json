@@ -1,32 +1,32 @@
 [
   {
-    "name": "Recycling Bins - Model A",
-    "status": "Available",
-    "date": "15 Mar 2024",
-    "progress": 85.2
-  },
-  {
-    "name": "Composting Machine - Industrial Grade",
-    "status": "In Development",
-    "date": "28 Feb 2024",
-    "progress": 45.7
-  },
-  {
-    "name": "Waste Sorting System - Advanced",
-    "status": "Testing",
-    "date": "10 Apr 2024",
-    "progress": 60.3
-  },
-  {
-    "name": "Incinerator - Eco-Friendly",
+    "name": "Dhruv",
     "status": "Approved",
-    "date": "02 Jan 2024",
-    "progress": 100
+    "date": "18 Feb 2022",
+    "progress": 75.5
   },
   {
-    "name": "Biogas Plant - Large Scale",
-    "status": "In Production",
-    "date": "20 May 2024",
-    "progress": 70.1
+    "name": "Aryan",
+    "status": "Disable",
+    "date": "18 Feb 2022",
+    "progress": 25.5
+  },
+  {
+    "name": "Shivam",
+    "status": "Error",
+    "date": "20 Feb 2021",
+    "progress": 90
+  },
+  {
+    "name": "Vaibhav",
+    "status": "Approved",
+    "date": "12 Feb 2021",
+    "progress": 50.5
+  },
+  {
+    "name": "Aditi",
+    "status": "Pending",
+    "date": "28 Feb 2022",
+    "progress": 40
   }
 ]

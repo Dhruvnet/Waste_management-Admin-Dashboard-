@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Box, FormControl, Input, Text, Grid, GridItem, VStack, Image, Stack } from '@chakra-ui/react';
+import { Box, FormControl, Input, Text, Grid, GridItem, VStack, Badge, Image, Stack } from '@chakra-ui/react';
 
 function UserReports() {
   const [map, setMap] = useState(null);
@@ -8,7 +8,7 @@ function UserReports() {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCloOFxFC3egPYUQFHQ2GaD1Tmtt9Pc6Zg&libraries=places";
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCloOFxFC3egPYUQFHQ2GaD1Tmtt9Pc6Zg&libraries=places`;
     script.async = true;
     document.body.appendChild(script);
 
@@ -48,7 +48,7 @@ function UserReports() {
     const service = new window.google.maps.places.PlacesService(map);
     service.nearbySearch(request, (results, status) => {
       if (status === window.google.maps.places.PlacesServiceStatus.OK) {
-        setHotspots(results.slice(0, 4)); // Limiting to first 5 results
+        setHotspots(results.slice(1, 5)); // Limiting to first 5 results
       }
     });
   };
@@ -67,13 +67,14 @@ function UserReports() {
             <Text fontSize="sm" mb={1}>Hotspots</Text>
             <VStack align="start" spacing={4}>
               {hotspots.map((spot, index) => (
-                <Box key={index} borderWidth="1px" borderRadius="lg" overflow="hidden" boxShadow="md" width="100%">
-                  {/* <Image src={spot.icon} alt={spot.name} /> */}
-                  <Stack spacing={2} p={4}>
-                    <Text fontWeight="bold">{spot.name}</Text>
-                    <Text>{spot.vicinity}</Text>
-                  </Stack>
-                </Box>
+                spot.name.toLowerCase() !== newLocation.toLowerCase() && (
+                  <Box key={index} borderWidth="1px" borderRadius="lg" overflow="hidden" boxShadow="md" width="100%">
+                    <Stack spacing={2} p={4}>
+                      <Text fontWeight="bold">{spot.name}</Text>
+                      <Text>{spot.vicinity}</Text>
+                    </Stack>
+                  </Box>
+                )
               ))}
             </VStack>
           </Box>
@@ -84,6 +85,3 @@ function UserReports() {
 }
 
 export default UserReports;
-
-
-

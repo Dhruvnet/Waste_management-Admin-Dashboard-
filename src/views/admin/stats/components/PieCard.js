@@ -31,8 +31,6 @@ export default function Conversion(props) {
         chartData={pieChartData}
         chartOptions={pieChartOptions}
       />
-
-
       <Flex justify="center" w="100%" mt="20px">
         <Flex direction="column" align="center" mx="10px">
           <Box h='8px' w='8px' bg='brand.500' borderRadius='50%' mb='5px' />

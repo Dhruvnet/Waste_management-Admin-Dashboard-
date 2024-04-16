@@ -1,26 +1,32 @@
 [
   {
-    "name":"Horizon UI PRO",
+    "name": "Composting Machine Deployment",
     "status": "Approved",
-    "date": "18 Apr 2022",
-    "progress": 75.5  
+    "date": "22 Feb 2022",
+    "progress": 100  
   },
   {
-    "name":"Horizon UI Free",
-    "status": "Disable",
-    "date": "18 Apr 2022",
-    "progress": 25.5  
+    "name": "Waste Sorting Automation",
+    "status": "In Progress",
+    "date": "15 May 2022",
+    "progress": 60  
   },
   {
-    "name":"Marketplace",
-    "status": "Error",
-    "date": "20 May 2021",
-    "progress": 90  
-  },
-  {
-    "name":"Weekly Updates",
+    "name": "Biogas Plant Construction",
     "status": "Approved",
-    "date": "12 Jul 2021",
-    "progress": 50.5  
+    "date": "10 Sep 2022",
+    "progress": 40  
+  },
+  {
+    "name": "Recycling Bins Model A",
+    "status": "Pending",
+    "date": "30 Mar 2023",
+    "progress": 26  
+  },
+  {
+    "name": "Eco-friendly Incinerator Installation",
+    "status": "Pending",
+    "date": "28 Jul 2023",
+    "progress": 75  
   }
 ]
