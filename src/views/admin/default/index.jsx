@@ -122,11 +122,11 @@ function UserReports() {
 
   const getMarkerIcon = (capacity) => {
     if (capacity === "Full") {
-      return "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
+      return "https://raw.githubusercontent.com/Dhruvnet/svg_codes/main/greenbin.png?token=GHSAT0AAAAAACNM6XGBDENM4KYFGXWRJIO6ZQ6XVDQ";
     } else if (capacity === "Half Full") {
       return "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png";
     } else {
-      return "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
+      return "https://raw.githubusercontent.com/Dhruvnet/svg_codes/main/greenbin.png?token=GHSAT0AAAAAACNM6XGBDENM4KYFGXWRJIO6ZQ6XVDQ";
     }
   };
 
